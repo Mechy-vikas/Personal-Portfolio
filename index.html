@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/74b9370f75.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo"><span>P</span>ortfolio</h1>
+            <!-- <img src="images/1.jpg" class="logo"> -->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="hearder-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Vikas Yadav</span> <br></h1><h2>from New Delhi</h2> 
+        </div>
+    </div>
+</div>
+
+
+<!-- --------------About section---------- -->
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about.jpeg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi! My name is Vikas Yadav. I am a Web Devloper, and I'm very passioante and dedicated to my work. Basically i am a fresher, I have acquired the skills and knowledge necessary to make your project a success.I enjoy every step of the design process, from discussion and collaboration.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web Interface</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Youtuber</span><br>Making Content on Youtube</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span>Fresher</span><br>Hi! My name is Vikas Yadav. I am a Web Devloper, and I'm very passioante and dedicated to my work. <br> Basically i am a fresher, I have acquired the skills and knowledge necessary to make your project a <br> success.I enjoy every step of the design process, from discussion and collaboration.</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>2018-2022 <br>SGPA 8.9</span><br>Bachelor in Mechanical Engineering <br>from Meri College of Engineering and Technology</li>
+                        <li><span>2016-2018 <br>61 %</span><br>Senior Secondary School <br>from Sarvodaya Bal Vidhyalaya No2</li>
+                        <li><span>2014-2016  <br>8.8 CGPA</span><br>Secondary School <br>from Sarvodaya Bal Vidhyalaya No2</li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<!-- --------------------services-------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-titles">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi excepturi, ipsum ratione amet magnam adipisci quas perferendis incidunt! In atque nisi eius optio maiores cum ea inventore harum soluta quae.</p>
+                <a href="#">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi excepturi, ipsum ratione amet magnam adipisci quas perferendis incidunt! In atque nisi eius optio maiores cum ea inventore harum soluta quae.</p>
+                <a href="#">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fa-brands fa-youtube"></i>
+                <h2>Content Creation</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi excepturi, ipsum ratione amet magnam adipisci quas perferendis incidunt! In atque nisi eius optio maiores cum ea inventore harum soluta quae.</p>
+                <a href="#">Learn more</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------------portfolio------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/portfolio2.png" alt="#">
+                <div class="layer">
+                    <h3>My Personal Portfolio</h3>
+                    <p>This is my PersonalPortfolio made up by using Html, CSS and Javascript <br>Click the below icon to know more</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/portfolio1.png" alt="#">
+                <div class="layer">
+                    <h3>University Website Design</h3>
+                    <p>This is a Design of an University by using Html, CSS and javascript <br>Click the below icon to know more</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Mechy-vikas" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----------------contact form------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>yadavvikas.vy1999@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7065758929</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/iam.vikas.yadav/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/people/Vikas-Yadav/100007550984778/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/vikas-vy1999/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Mechy-vikas"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                <a href="images/Resume_Vikas.pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter your name" required>
+                    <input type="email" name="Email" placeholder="Enter your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2 btn3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @Vikas-Yadav, Made with <i class="fa-solid fa-heart"></i> by Vikas-Yadav</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-content");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+    
+</body>
+</html>
