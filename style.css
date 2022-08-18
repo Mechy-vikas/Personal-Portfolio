@@ -289,7 +289,7 @@ nav ul li a:hover::after{
     text-decoration: none; 
     font-size: 18px;
     line-height: 60px;
-    background: rgb(33, 243, 232);
+    background: rgb(245, 247, 246);
     width: 60px;
     height: 60px; 
     border-radius: 50%;
